@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--the container-->
+   <div  class="container">
+
+<!--the form-->
+
+    <form action="#" method="get">
+<!--h1-->
+<h1>registration form</h1>
+
+<!--input group-->
+<div class="input-group">
+
+    <!--input child-->
+<div class="input-child">
+    <label for="fname">first name:</label><br>
+    <input type="text" name="fame" id="fname" required>
+</div>
+<div class="input-child">
+    <label for="lname">last name:</label><br>
+    <input type="text" name="lame" id="lname" required>
+</div>
+<div class="input-child">
+    <label for="email">email:</label> <br>
+    <input type="email" name="email" id="email" required>
+</div>
+<div class="input-child">
+    <label for="password">password:</label> <br>
+    <input type="password" name="password" id="password" required>
+</div>
+<div class="input-child">
+    <label for="rtp">re-type password:</label>  <br>
+    <input type="password" name="rtp" id="rtp" required>
+</div>
+<div class="input-child">
+    <label for="contact">contact:</label><br>
+    <input type="tel" name="contact" id="contact" required>
+</div>
+
+</div>
+<!--gender-->
+<div class="gender">
+<span>gender:</span> <br>
+<select name="gender" id="gender" required>
+    <option value="gender">male</option>
+    <option value="gender">female</option>
+    <option value="gender">transgender</option>
+    <option value="gender">custom</option>
+    <option value="gender">rather not say</option>
+
+</select>
+</div>
+<!--button-->
+<button type="submit">submit</button>
+    </form>
+   </div> 
+</body>
+</html>

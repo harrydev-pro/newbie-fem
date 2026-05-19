@@ -1,0 +1,90 @@
+body{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    background-color:white;
+    width: 350px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0,0.3);
+}
+h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(6, 163, 6);
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: capitalize;
+    font-weight: 550;
+}
+.input-group .input-child input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid;
+    margin-top: 5px;
+    font-weight: 550;
+}
+.gender span{
+    font-weight: 550;
+}
+.gender select{
+    width: 100%; 
+    height: 34px; 
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid;
+    margin-top: 5px;   
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;               
+}
+button{
+    width: 100%; 
+    height: 34px; 
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 5px;   
+    font-size: 17px;
+    font-weight: 550;
+    text-transform: capitalize; 
+    background-color:  rgb(6, 163, 6);    
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width:375px){
+form{
+  background-color: transparent; 
+  box-shadow: none; 
+}
+
+}
+
+
+
+
+@media screen and (max-width:440px){
+form{
+  background-color: transparent; 
+  box-shadow: none; 
+}
+
+}
