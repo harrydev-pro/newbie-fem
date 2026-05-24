@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-color: hsl(204, 43%, 93%);
+font-family: 'karla',sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.split{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+ .card--intro, .card--why, .card--plan{
+  padding: 20px; 
+}
+.card--intro{
+    background-color: white;
+}
+.card--intro h2{
+    text-transform: capitalize;
+    color:  hsl(179, 62%, 43%);
+    font-size: 30px;
+}
+.card--intro h3{
+    text-transform: lowercase;
+    color:  hsl(71, 73%, 54%);
+    font-size: 20px;
+}
+.card--intro {
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    color: hsl(218, 22%, 67%);
+
+}
+.card--plan{
+    background-color: hsl(179, 62%, 43%);
+}
+.card--plan h2{
+    color: white;
+}
+.card--plan span{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    margin-right: 15px;
+}
+.card--plan p{
+    color: white;
+}
+button{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color:hsl(71, 73%, 54%) ;
+    border: none;
+    border-radius: 7px;
+    margin-left: 35px;
+    font-weight: 550;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 3px 5px 10px  rgb(0,0,0,0.3);
+}
+.card--why{
+    background-color: hsl(179, 62%, 43%);
+    opacity: 0.8;
+}
+.card--why h2{
+    color: white;
+
+}
+.card--why ul li{
+    color: white;
+    line-height: 1.7;
+font-weight: 500;
+list-style: none;
+}
+
+
+
+/*
+
+media for 375px
+
+
+
+*/
+@media screen and (max-width:440px){
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.split{
+    display: flex;
+    flex-direction: column;
+}
+}
